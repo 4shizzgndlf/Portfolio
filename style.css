@@ -11,6 +11,20 @@ body {
     height: 100vh;
     width: 100%;
 }
+#socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    gap: 20px;
+}
+#socials a {
+    transition: transform 1s ease;
+}
+#socials a:hover {
+    opacity: 0.8;
+    transform: scale(1.05) translateY(-25%) rotate(17deg);
+}
 #nav {
     background-color: black;
     border-radius: 25px;
