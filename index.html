@@ -3,10 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
     <script defer src="script.js"></script>
+    <script defer src="Game.js" type="module"></script>
+    <script defer src="Pacman.js" type="module"></script>
 </head>
 <body>
-  <h1 id="title"></h1>
+<div id="parent">
+    <div id="socials"></div>
+    <div id="welcome"></div>
+    <div id="subHeader"></div>
+    <div class="clock">
+        <div class="time">
+            <span class="hour">00</span>:<span class="minute">00</span>:<span class="second">00</span> <span
+                class="period"></span>
+        </div>
+        <div class="date">
+            <span class="month">Jan</span> <span class="today">10</span>,<span class="year">2025</span>
+        </div>
+    </div>
+    <div id="canvasParent">
+        <canvas id="gameCanvas"></canvas>
+    </div>
+    <nav id="nav"></nav>
+</div>
 </body>
 </html>
