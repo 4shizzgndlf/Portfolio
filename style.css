@@ -1,10 +1,14 @@
+@font-face {
+    font-family: Roboto;
+    src: url("./fonts/Roboto-VariableFont_wdth,wght.ttf") format("truetype");
+}
 body {
     background: linear-gradient(
             18deg,
             rgb(255, 255, 255) 0%,
             rgb(215, 215, 215) 100%
     );
-    font-family: Roboto;
+    font-family: "Courier New", Courier, monospace;
 }
 #parent {
     position: relative;
@@ -63,6 +67,8 @@ body {
 
 #welcome:hover {
     animation: bounce 0.6s ease;
+    opacity: 0.8;
+    cursor: pointer;
 }
 
 @keyframes bounce {
@@ -92,19 +98,4 @@ body {
 
 .date {
     font-size: 14px;
-}
-#canvasParent {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-#gameCanvas {
-    border-radius: 25px;
-}
-#subHeader {
-    font-family: DancingScript;
-    font-size: 24px;
-    margin: 0px 20px;
-    text-align: center;
 }
