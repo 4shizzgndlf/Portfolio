@@ -5,25 +5,82 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="./style.css">
     <script defer src="script.js"></script>
+    <script defer src="clock.js"></script>
 </head>
 <body>
 <div id="parent">
     <div id="socials"></div>
     <div id="logo"></div>
     <div id="home"></div>
+
     <div class="clock">
         <div class="time">
-            <span class="hour">00</span>:<span class="minute">00</span>:<span class="second">00</span> <span
-                class="period"></span>
+            <span class="hour">00</span>:<span class="minute">00</span>:<span class="second">00</span>
+            <span class="period"></span>
         </div>
         <div class="date">
-            <span class="month">Jan</span> <span class="today">10</span>,<span class="year">2025</span>
+            <span class="month">Jan</span> <span class="today">10</span>, <span class="year">2025</span>
         </div>
     </div>
+
     <br>
     <br>
+
     <div id="welcome"></div>
-    <nav id="nav"></nav>
+
+    <br>
+    <br>
+
+    <div id="components">
+        <div id="customComponents"></div>
+
+        <div id="col1">
+            <!-- Image Slider Column -->
+            <div id="slider-column">
+                <br>
+                <div class="slider-title">Image slider</div>
+                <div id="slider">
+                    <img id="slide" src="assets/galaxy.jpeg" alt="Galaxy">
+                    <button class="arrow left">❮</button>
+                    <button class="arrow right">❯</button>
+                </div>
+            </div>
+
+            <!-- Banner Column -->
+            <div id="banner-column">
+                <br>
+                <div class="banner-title">Banner</div>
+                <div class="tech-banner">
+                    <div class="tech-track">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>TypeScript</span>
+                        <span>Python</span>
+                        <span>Java</span>
+                        <span>C++</span>
+                        <span>C#</span>
+                        <span>Go</span>
+                        <span>Rust</span>
+
+                        <!-- Duplicate for seamless loop -->
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>TypeScript</span>
+                        <span>Python</span>
+                        <span>Java</span>
+                        <span>C++</span>
+                        <span>C#</span>
+                        <span>Go</span>
+                        <span>Rust</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
+
+<nav id="nav"></nav>
 </body>
 </html>

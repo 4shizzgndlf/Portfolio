@@ -1,5 +1,5 @@
 const nav = document.querySelector("#nav");
-const about = document.querySelector("#about");
+const certificate = document.querySelector("#certificate");
 const date = document.querySelector("#date");
 const socials = document.querySelector("#socials");
 const logo = document.querySelector("#logo");
@@ -7,9 +7,9 @@ const welcome = document.querySelector("#welcome");
 
 const icons = [
     `<a href="index.html"><img src="assets/homeIcon.png" /></a>`,
-    `<a href="#"><img src="assets/userIcon.png" /></a>`,
+    `<a href="about.html"><img src="assets/userIcon.png" /></a>`,
     `<a href="settings.html"><img src="assets/settingsIcon.png" /></a>`,
-    `<a href="certificates.html"><img src="assets/certificateIcon.png" /></a>`,
+    `<a href="#"><img src="assets/certificateIcon.png" /></a>`,
 ]
 const strings = [
     `<div>Home</div>`,
@@ -21,7 +21,7 @@ const strings = [
         PageMaker including versions of Lorem Ipsum.</div>`,
     `<div>About</div>`,
     `<div>Settings</div>`,
-    `<div>Certificate</div>`,
+    `<div>Certificates</div>`,
 ]
 const logos = [
     `<a href="https://www.facebook.com"><img src="assets/facebookLogo.png"></a>`,
@@ -40,7 +40,7 @@ for (let i = 0; i < icons.length; i++) {
 }
 
 
-about.innerHTML = strings[2];
+certificate.innerHTML = strings[4];
 logo.innerHTML = `<div id="logo">Lucas Hoffmann <br>Christensen</div>`;
 welcome.innerHTML = strings[1];
 
