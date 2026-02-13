@@ -1,8 +1,8 @@
 const nav = document.querySelector("#nav");
-const welcome = document.querySelector("#welcome");
+const home = document.querySelector("#home");
 const date = document.querySelector("#date");
 const socials = document.querySelector("#socials");
-const subHeader = document.querySelector("#subHeader");
+const logo = document.querySelector("#logo");
 
 const icons = [
     `<a href="#"><img src="assets/homeIcon.png" /></a>`,
@@ -11,7 +11,10 @@ const icons = [
     `<a href="certificates.html"><img src="assets/certificateIcon.png" /></a>`,
 ]
 const strings = [
-    `Welcome!`,
+    `<div>Home</div>`,
+    `About`,
+    `Settings`,
+    `Certificates`,
 ]
 const logos = [
     `<a href="https://www.facebook.com"><img src="assets/facebookLogo.png"></a>`,
@@ -29,7 +32,8 @@ for (let i = 0; i < icons.length; i++) {
     nav.innerHTML += icons[i];
 }
 
-welcome.innerHTML = strings[0];
+home.innerHTML = strings[0];
+logo.innerHTML = `<div id="logo">Lucas Hoffmann <br>Christensen</div>`;
 
 function updateClock() {
     let date = new Date();
