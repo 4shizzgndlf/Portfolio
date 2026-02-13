@@ -12,8 +12,6 @@ const icons = [
 ]
 const strings = [
     `Welcome!`,
-    `Use arrows to move around`,
-    `Collect all dots to win`,
 ]
 const logos = [
     `<a href="https://www.facebook.com"><img src="assets/facebookLogo.png"></a>`,
@@ -32,7 +30,6 @@ for (let i = 0; i < icons.length; i++) {
 }
 
 welcome.innerHTML = strings[0];
-subHeader.innerHTML = strings[1] + "<br>" + strings[2];
 
 function updateClock() {
     let date = new Date();
