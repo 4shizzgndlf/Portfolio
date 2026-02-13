@@ -15,8 +15,7 @@ body {
     font-family: "Courier New", Courier, monospace;
 }
 #parent {
-    position: relative;
-    height: 100vh;
+    height: 200vh;
     width: 100%;
 }
 #socials {
@@ -41,7 +40,7 @@ body {
     gap: 50px;
     justify-content: center;
     align-items: center;
-    position: absolute;
+    position: fixed;
     padding: 20px 40px;
     bottom: 0px;
     left: 50%;
@@ -68,6 +67,18 @@ body {
     display: inline-block;
 }
 #home:hover {
+    animation: bounce 0.6s ease;
+    opacity: 0.8;
+    cursor: pointer;
+}
+#about {
+    font-weight: bold;
+    font-size: 54px;
+    margin-left: 20px;
+    transition: transform 0.3s;
+    display: inline-block;
+}
+#about:hover {
     animation: bounce 0.6s ease;
     opacity: 0.8;
     cursor: pointer;
@@ -107,6 +118,8 @@ body {
     font-size: 14px;
 }
 #welcome {
-    display: flex;
+    flex-direction: row;
     text-align: center;
+    width: 80vw;
+    margin: 0 auto;
 }

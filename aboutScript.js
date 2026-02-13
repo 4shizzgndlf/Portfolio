@@ -1,13 +1,13 @@
 const nav = document.querySelector("#nav");
-const home = document.querySelector("#home");
+const about = document.querySelector("#about");
 const date = document.querySelector("#date");
 const socials = document.querySelector("#socials");
 const logo = document.querySelector("#logo");
 const welcome = document.querySelector("#welcome");
 
 const icons = [
-    `<a href="#"><img src="assets/homeIcon.png" /></a>`,
-    `<a href="about.html"><img src="assets/userIcon.png" /></a>`,
+    `<a href="index.html"><img src="assets/homeIcon.png" /></a>`,
+    `<a href="#"><img src="assets/userIcon.png" /></a>`,
     `<a href="settings.html"><img src="assets/settingsIcon.png" /></a>`,
     `<a href="certificates.html"><img src="assets/certificateIcon.png" /></a>`,
 ]
@@ -40,7 +40,7 @@ for (let i = 0; i < icons.length; i++) {
 }
 
 
-home.innerHTML = strings[0];
+about.innerHTML = strings[2];
 logo.innerHTML = `<div id="logo">Lucas Hoffmann <br>Christensen</div>`;
 welcome.innerHTML = strings[1];
 
