@@ -14,7 +14,7 @@ const icons = [
 const strings = [
     `<div>Home</div>`,
     `<div>Welcome to my page. I make websites, custom components and 2d games for my customers. To get a price on some 
-    of my work fill out the form below. If I built your website you can buy custom components from me. In that way 
+    of my work fill out the form below. If I built your website you can buy custom components from me. In that way you 
     can upgrade your website with me - it never gets outdated. Otherwise, I have to build a brand-new website for you.</div>`,
     `<a href="#customComponents">Custom components</a>`,
     `<div>About</div>`,
